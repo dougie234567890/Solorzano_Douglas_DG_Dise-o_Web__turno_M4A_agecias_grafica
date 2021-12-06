@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--====== bootstrap css ======-->
+    <!--link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"-->
+    <!--====== tipografia ======-->
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,800;1,300;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!--====== link de redes sociales ======-->
+    <link rel="canonical" href="css/footers.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--====== iconos bootstrap ======-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <title>Douglas Solorzano</title>
+</head>
+
+<body>
+    <!--====== comienso de navbar ======-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+                <a class="navbar-brand" href="#"><img src="portada/up-1.png" alt="logo" width="40" height="33"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion"
+                aria-controls="navegacion" aria-expanded="false" aria-label="toggler navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navegacion">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-white" aria-current="page" href="#">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-white" href="#nosotros">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-white" href="#servicios">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50" href="#porfolio">PORFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white-50" href="#contacto">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--====== fin de navbar ======-->
+    
+    <!--====== carucel y header ======-->
+    <header class="pt-5">
+    <div id="portada" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#portada" data-bs-slide-to="0" aria-label="portada 1" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#portada" data-bs-slide-to="1" aria-label="portada 2"></button>
+            <button type="button" data-bs-target="#portada" data-bs-slide-to="2" aria-label="portada 3"></button>
+            <button type="button" data-bs-target="#portada" data-bs-slide-to="3" aria-label="portada 4"></button>
+            <button type="button" data-bs-target="#portada" data-bs-slide-to="4" aria-label="portada 5"></button>
+        </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- 1 -->
+                <img src="portada/portada-1.jpg" class="d-block w-100" alt="portada 1">
+                <div class="carousel-caption d-sm-none d-md-block text-start">
+                    <h1 class=" display-5 fw-light ">ESTUDIO DE DISEÑO WEB</h1>
+                    <hr>
+                    <p class="lead display-6 fw-bold">Programamos tu sitio web</p>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="carousel-item">
+                <img src="portada/portada-2.jpg" class="d-block w-100" alt="portada 2">
+                <div class="carousel-caption d-none d-md-block  text-start">
+                    <h1 class="display-5 fw-light ">AGENCIA DE SOCIAL MEDIA</h1>
+                    <hr>
+                    <p class="lead display-6 fw-bold">Generamos contenido</p>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="carousel-item">
+                <img src="portada/portada-3.jpg" class="d-block w-100" alt="portada 3">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h1 class=" display-5 display-5 fw-light ">AGENCIA DE MARKETING ONLINE</h1>
+                    <hr>
+                    <p class="lead display-6 fw-bold">Gestionamos tus anuncios</p>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="carousel-item">
+                <img src="portada/portada-4.jpg" class="d-block w-100" alt="portada 4">
+                <div class="carousel-caption d-none d-md-block  text-start">
+                    <h1 class="display-5 fw-light ">ESTUDIO DE DISEÑO GRÁFICO</h1>
+                    <hr>
+                    <p class="lead display-6 fw-bold">Diseñamos tu identidad</p>
+                </div>
+            </div>
+            <!-- 5 -->
+                <div class="carousel-item">
+                <img src="portada/portada-5.jpg" class="d-block w-100" alt="portada-5">
+                <div class="carousel-caption  d-md-block  text-start">
+                    <h1 class="display-3 fw-bold  col-6">CONSTRUIMOS MUNDOS DIGITALES</h1>
+                    <hr>
+                    <p class="lead  fw-bold ">WEB DESIGN / BRANDING / GRAPHIC DESIGN / DIGITAL MARKETING / SOCIAL MEDIA / MOTION DESIGN - VFX</p>
+                </div>
+            </div>
+        </div>
+        <!-- fin carousel item 5 -->
+        <!-- fin carousel-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#portadas" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#portadas" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </header>
+    <!--====== Fin carucel en header ======-->    
+    <div class="opacity-75" id="chao">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-5 col-lg-6 col-md-6">
+                    <div class="py-5 py-lg-0">
+                        <h1 class="text-white display-4 fw-bold">CONSTRUIMOS MUNDOS DIGITALES
+                        </h1>
+                        <p class="text-white mb-4 lead">WEB DESIGN / BRANDING / GRAPHIC DESIGN / DIGITAL MARKETING / SOCIAL MEDIA / MOTION DESIGN - VFX</p>
+                        <a href="#porfolio" class="btn btn-success fw-bold">PORFOLIO</a>
+                    </div>
+                </div>
+                <div class=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center">
+                    <img src="portada/corazon-1.png" alt="" class="img-fluid" width="1366" height="768">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== comienzo nosotros ======-->
+    <section class="pt-4" id="nosotros">
+        <div class="container">
+            <div class="row">
+                <!--====== text 1 ======-->
+                <div class="col-sm-12 col-md-6 py-5">
+                    <h2 class="fw-bold ">VAMOS A CREAR JUNTOS</h2>
+                    <p class=" fw-normal fs-5">Hola, somos Stand Up un estudio de diseño y agencia de marketing con sede en Buenos Aires.
+                    Nos dedicamos al Diseño Gráfico, Diseño Web, Redes Sociales y Marketing.</p>
+                </div>
+                <!--====== text 2 ======-->
+                <div class="col-sm-12 col-md-6 py-5">
+                <h2 class="fw-bold">ESTÁS EN BUENAS MANOS</h2>
+                <p class=" fw-normal fs-5">El estudio arrancó como un emprendimiento de dos amigos diseñadores. 
+                    Con los años crecimos y sumamos profesionales en comunicación para poder brindar una respuesta 
+                    a las necesidades de nuestros clientes. Contamos con un excelente grupo de trabajo 
+                    capacitado para brindar soluciones concretas, eficaces y creativas.</p>
+                </div>
+            </div>
+        </div>
+        <!--====== card de persona nosotros ======-->
+        <div class="container">
+            <div class="row">
+                <!--====== card 1 ======-->
+                <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+                    <div class="card">
+                        <img src="img/persona-1.jpg" class="card-img-top rounded-circle  img-thumbnail bg-danger bg-opacity-25" alt="imgen-1 "height="700" width="700">
+                        <hr class="py-sm-0 py-md-1 py-lg-2">
+                        <div class="card-body">
+                        <h3 class="card-title fw-bold fw-bold.">LUCAS BARRANTES</h3>
+                        <h5 class="card-title fw-light">Diseñador Digital</h5>
+                        <p class="card-text">Con más de 9 años de experiencia. Diseñador gráfico de profesión, 
+                            especializado en sitios webs y productos digitales</p>
+                        <div class="text-center bg-dark bg-opacity-25 rounded-pill">
+                                <ul>
+                                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                                        <i class="bi bi-linkedin text-light opacity-75 fs-5 m-2"></i>
+                                    </a>
+                                <a href="https://www.facebook.com/douglas.solorzano.33/">
+                                    <i class="bi bi-facebook text-light opacity-50 fs-5 m-2"></i>
+                                </a>
+                                <a href="https://www.instagram.com/douglas__89/">
+                                    <i class="bi bi-instagram text-light opacity-50 fs-5 m-2"></i>
+                                </a>
+                                <a href="https://www.behance.net/">
+                                    <i class="bi bi-behance text-light opacity-75 fs-5 m-2"></i>
+                                </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== card 2 ======-->
+                <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+                    <div class="card">
+                        <img src="img/persona-2.jpg" class="card-img-top rounded-circle img-fluid img-thumbnail bg-danger bg-opacity-25" alt="imgen-2" height="700" width="700">
+                        <hr class="py-sm-0 py-md-1 py-lg-2">
+                        <div class="card-body">
+                        <h3 class="card-title fw-bold">MARÍA CONTRERAS</h3>
+                        <h5 class="card-title fw-light">Diseñadora Gráfica</h5>
+                        <p class="card-text">¿Querías talento? Ella lo tiene, por donde la mires. Manu es creatividad pura, y nos sorprende en cada diseño con su magia. </p>
+                        <div class="text-center bg-dark bg-opacity-25 rounded-pill">
+                                    <a href="https://www.linkedin.com/feed/" target="blank">
+                                        <i class="bi bi-linkedin text-light opacity-75 fs-5 m-2"></i>
+                                    </a>
+                                <a href="https://www.facebook.com/douglas.solorzano.33/">
+                                    <i class="bi bi-facebook text-light opacity-50 fs-5 m-2"></i>
+                                </a>
+                                <a href="https://www.instagram.com/douglas__89/">
+                                    <i class="bi bi-instagram text-light opacity-50 fs-5 m-2"></i>
+                                </a>
+                                <a href="https://www.behance.net/">
+                                    <i class="bi bi-behance text-light opacity-75 fs-5 m-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== card 3 ======-->
+                <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+                    <div class="card">
+                        <img src="img/persona-3.jpg" class="card-img-top rounded-circle img-fluid img-thumbnail bg-danger bg-opacity-25" alt="imgen-3" height="700" width="700">
+                        <hr class="py-sm-0 py-md-1 py-lg-2">
+                        <div class="card-body">
+                        <h3 class="card-title fw-bold">NICOLÁS VENIER</h3>
+                        <h5 class="card-title fw-light">Comunicació Digital</h5>
+                        <p class="card-text">PR, Campañas on-line, Social media, Marketing digital, Diseño, Creación e implementación de estrategias y planes de comunicación.</p>
+                        <div class="text-center bg-dark bg-opacity-25 rounded-pill">
+                                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                                        <i class="bi bi-linkedin text-light opacity-75 fs-5 m-2"></i>
+                                    </a>
+                                <a href="https://www.facebook.com/douglas.solorzano.33/">
+                                    <i class="bi bi-facebook text-light opacity-50 fs-5 m-2"></i>
+                                </a>
+                                <a href="https://www.instagram.com/douglas__89/">
+                                    <i class="bi bi-instagram text-light opacity-50 fs-5 m-2"></i>
+                                </a>
+                                <a href="https://www.behance.net/">
+                                    <i class="bi bi-behance text-light opacity-75 fs-5 m-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--====== card 4 ======-->
+                <div class="col-sm-12 col-md-6 col-lg-3 py-3">
+                    <div class="card">
+                        <img src="img/persona-4.jpg" class="card-img-top rounded-circle img-fluid img-thumbnail bg-danger bg-opacity-25" alt="imgen-4" height="700" width="700">
+                        <hr class="py-sm-0 py-md-1 py-lg-2">
+                        <div class="card-body">
+                        <h3 class="card-title fw-bold">FLORENCIAS MUCCI</h3>
+                        <h5 class="card-title fw-light">Programadora Web</h5>
+                        <p class="card-text fw-normal">Programadora especialista en desarrollo y manejo de base de datos. Creando sistemas de administración en webs.</p>
+                                <div class="text-center bg-dark bg-opacity-25 rounded-pill">
+                                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                                        <i class="bi bi-linkedin text-light opacity-75 fs-5 m-2"></i>
+                                    </a>
+                                <a href="https://www.facebook.com/douglas.solorzano.33/">
+                                    <i class="bi bi-facebook text-light opacity-50 fs-5 m-2"></i>
+                                </a>
+                                <a href="https://www.instagram.com/douglas__89/">
+                                    <i class="bi bi-instagram text-light opacity-50 fs-5 m-2"></i>
+                                </a>
+                                <a href="https://www.behance.net/">
+                                    <i class="bi bi-behance text-light opacity-75 fs-5 m-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== fin de nosotros y card ======-->
+
+    <!--====== comienso de servicios ======-->
+    <section class="text-sm-center py-5" id="servicios">
+            <div class="container">
+                <div class="row">
+                <div class="col-12">
+                    <hr>
+                    <h1 class="text-center fw-bold display-3">Haciendo lo que nos apasiona desde 2019</h1>
+                    <hr>
+                    <h2 class="text-center fw-bold">SERVICIOS</h2>
+                </div>
+            </div>
+
+            <!--====== ico row 1 ======-->
+            <div class="row" id="ooh">
+                <!--====== ico BRANDING 1 ======-->
+                <div class=" col-md-6 col-lg-4 py-5">
+                    <i class="bi bi-lightbulb display-3"></i>
+                    <h3 class="fw-bold">BRANDING</h3>
+                    <p class="fw-normal fs-5">Diagnóstico de marca, Diseño de marcas, Identidad visual, 
+                        Sistemas visuales, Manuales de marca</p>
+                    <button type="button" class="btn btn-danger opacity-75" data-bs-toggle="modal" data-bs-target="#branding">BRANDING</button>
+                </div>
+
+            <!--====== modal BRANDING 01 ======-->
+            <div class="modal fade" id="branding" tabindex="-1" aria-labelledby="editorial" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title text-dark fw-bold" id="branding-1">BRANDINGL</h3>
+                            <button type="button" class="btn btn-close text-dark" data-bs-toggle="modal" data-bs-target="#branding">
+                            </button>
+                        </div>
+                            <div class="modal-body">
+                                <img src="img/persona-1.jpg" alt="persona-1" width="700" height="700"  class="img-fluid img-thumbnail">
+                            </div>
+                            <p class="text-center text-black-50">todavía falta aqui</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Regresar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--====== ico EDITORIAL 2 ======-->
+            <div class=" col-md-6 col-lg-4 py-5">
+                <i class="bi bi-book display-3"></i>
+                <h3 class="fw-bold">EDITORIAL</h3>
+                <p class="fw-normal fs-5">Memorias y balances, Brochures, Libros, 
+                    Revistas, Periódicos</p>
+                <button type="button" class="btn btn-danger opacity-75" data-bs-toggle="modal" data-bs-target="#editorial">EDITORIAL</button>
+            </div>
+
+            <!--====== modal EDITORIAL 02 ======-->
+            <div class="modal fade" id="editorial" tabindex="-1" aria-labelledby="editorial" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title text-dark fw-bold" id="editorial-2">EDITORIAL</h3>
+                            <button type="button" class="btn btn-close text-dark" data-bs-toggle="modal" data-bs-target="#editorial">
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                        <img src="img/persona-2.jpg" alt="persona-1" width="700" height="700"  class="img-fluid img-thumbnail">
+                        </div>
+                            <p class="text-center text-black-50">todavía falta aqui</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Regresar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--====== ico PACKAGING 3 ======-->
+            <div class=" col-md-6 col-lg-4 py-5">
+                <i class="bi bi-box-seam display-3"></i>
+                <h3 class="fw-bold">PACKAGING</h3>
+                <p class="fw-normal fs-5">Diseño gráfico, Desarrollo mofológico, Etiquetas, 
+                    Envases, Merchandising</p>
+                <button type="button" class="btn btn-danger opacity-75" data-bs-toggle="modal" data-bs-target="#packaging">PACKAGING</button>
+            </div>
+
+            <!--====== modal PACKAGING 03 ======-->
+            <div class="modal fade" id="packaging" tabindex="-1" aria-labelledby="persona-3" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title text-dark fw-bold" id="packaging-3">PACKAGING</h3>
+                            <button type="button" class="btn btn-close text-dark" data-bs-toggle="modal" data-bs-target="#packaging">
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                        <img src="img/persona-3.jpg" alt="persona-1" width="700" height="700"  class="img-fluid img-thumbnail">
+                        </div>
+                            <p class="text-center text-black-50">todavía falta aqui</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Regresar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--====== ico DIGITAL 4 ======-->
+                <div class=" col-md-6 col-lg-4 py-5">
+                    <i class="bi bi-window-sidebar display-3"></i>
+                    <h3 class="fw-bold">DIGITAL</h3>
+                    <p class="fw-normal fs-5">Websites, E-Commerce, Social media, Animaciones, 
+                        Email marketing</p>
+                    <button type="button" class="btn btn-danger opacity-75" data-bs-toggle="modal" data-bs-target="#packaging">DIGITA</button>
+                </div>
+
+            <!--====== modal DIGITAL 04 ======-->
+            <div class="modal fade" id="digital" tabindex="-1" aria-labelledby="digital" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title text-dark fw-bold" id="digital-4">DIGITA</h3>
+                            <button type="button" class="btn btn-close text-dark" data-bs-toggle="modal" data-bs-target="#digital">
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                        <img src="img/persona-4.jpg" alt="persona-4" width="700" height="700"  class="img-fluid img-thumbnail">
+                        </div>
+                            <p class="text-center text-black-50">todavía falta aqui</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Regresar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--====== ico MARKETING 5 ======-->
+                <div class=" col-sm-12 col-md-6 col-lg-4 py-5">
+                    <i class="bi bi-people display-3"></i>
+                    <h3 class="fw-bold">MARKETING</h3>
+                    <p class="fw-normal fs-5">Campañas integrales, Métricas y análisis, Investigación 
+                        de mercado, Google Adwords, Social Media Ads</p>
+                    <button type="button" class="btn btn-danger opacity-75" data-bs-toggle="modal" data-bs-target="#marketing">MARKETING</button>
+                </div>
+
+            <!--====== modal MARKETING 05 ======-->
+            <div class="modal fade" id="marketing" tabindex="-1" aria-labelledby="marketing" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title text-dark fw-bold" id="marketing-5">MARKETING</h3>
+                            <button type="button" class="btn btn-close text-dark" data-bs-toggle="modal" data-bs-target="#marketing">
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                        <img src="img/persona-4.jpg" alt="persona-5" width="700" height="700"  class="img-fluid img-thumbnail">
+                        </div>
+                            <p class="text-center text-black-50">todavía falta aqui</p>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Regresar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--====== ico CONTENIDO 6 ======-->
+                <div class="col-12 col-md-6 col-lg-4 py-5">
+                    <i class="bi bi-collection display-3"></i>
+                    <h3 class="fw-bold text-sm-center">CONTENIDO</h3>
+                    <p class="fw-normal fs-5">Diagnóstico de marca, Diseño de marcas, Identidad 
+                        visual, Sistemas visuales, Manuales de marca</p>
+                    <button type="button" class="btn btn-danger opacity-75" data-bs-toggle="modal" data-bs-target="#contenido">
+                        CONTENIDO
+                    </button>
+                </div>
+                <!--====== modal CONTENIDO 06 ======-->
+                    <div class="modal fade" id="contenido" tabindex="-1" aria-labelledby="contenido" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h3 class="modal-title text-dark fw-bold" id="contenido-6">CONTENIDO</h3>
+                                    <button type="button" class="btn btn-close text-dark" data-bs-toggle="modal" data-bs-target="#contenido">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                <img src="img/persona-4.jpg" alt="persona-6" width="700" height="700"  class="img-fluid img-thumbnail">
+                                </div>
+                                    <p class="text-center text-black-50">todavía falta aqui</p>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Regresar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--====== fin text y cominso de iconos ======-->
+
+    <!--====== video ======-->
+    <aside class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <h2 class="fw-bold text-light display-5">Diseño de Marca</h2>
+                <p class="fw-light text-light opacity-50 display-6">Presentación Diseño de Marca</p>
+                </div>
+                <div class="col-md-9">
+                <div class="ratio ratio-4x3">
+                    <iframe src="https://www.youtube.com/embed/IOdAAnUfJMw" title="Presentación Diseño de Marca" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!--====== Porfolio ======-->
+    <section class="py-5" id="porfolio">
+        <div class="container-fluid py-5">
+            <div class="row">
+                <div class="col text-sm-center">
+                    <h2 class="fw-bold display-sm-6 display-6">Porfolio</h2>
+                    <p class=" fw-bold py-2 fs-sm-5">
+                        Te invito a conocer algunos de mi mejores desarrollos del año.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 my-3"> 
+                    <img src="porfolio/botella1.jpg" alt="960x960" width="960" height="960" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3"> 
+                    <img src="porfolio//botella2.jpg" alt="960x960" width="960" height="960" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3"> 
+                    <img src="porfolio//vino5.jpg" alt="960x960" width="960" height="960" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3"> 
+                    <img src="porfolio//pictograma3.jpg" alt="960x960" width="960" height="960" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 my-3"> 
+                    <img src="porfolio//publicida4.jpg" alt="960x960" width="960" height="960" class="img-fluid">
+                </div>
+                <div class=" col-12 col-md-6 col-lg-4 my-3"> 
+                    <img src="porfolio//marca6.jpg" alt="960x960" width="960" height="960" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- fin de porfolio -->
+        <!-- Formulario -->
+        <section class="secttio" id="contacto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="fw-bold p-3 text-sm-center">Contacto</h2>
+                        <p class="fw-normal fw-light text-sm-center">Si llegaste hasta acá, es porque tenés una gran idea o proyecto en mente.
+                        Cuetame de qué se trata y te ayudare 
+                        a llevar a cabo :)</p>
+                        <div class="underline mr-auto ml-auto mb-2"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="#">
+                            <div class="row">
+                                <div class="col-md-7">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26301.5924639185!2d-58.49554002285007!3d-34.510512973376585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb144711528c1%3A0x4e29b60019273b1c!2sAlparamis!5e0!3m2!1ses!2sar!4v1638772409124!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                                <div class="col-md-5">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="nombres" class="form-label fw-bold"><h6>Nombre:</h6></label>
+                                            <input type="text" class="form-control" placeholder="completar nombre" id="nombres" required>
+                                        <div class="valid-feedback">
+                                            tutto bene!
+                                        </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="apellido" class="form-label fw-bold"><h6>Apellido:</h6></label>
+                                            <input type="text" class="form-control" placeholder="completar apellido" id="apellido" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="e-mail" class="form-label fw-bold"><h6>Correo electrónico:</h6></label>
+                                            <input type="email" id="e-mail" class="form-control" placeholder="completar correo" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="e-mail" class="form-label fw-bold"><h6>Correo electrónico:</h6></label>
+                                            <input type="email" id="e-mail" class="form-control" placeholder="completar correo" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="consulta-aqui" class="form-label fw-bold"><h6>Consulta aqui:</h6></label>
+                                            <textarea class="form-control" rows="3" placeholder="dejanos tu comentario" maxlength="500" aria-describedby="texto-maximo"></textarea>
+                                            <div id="texto-maximo" class="form-text" >
+                                                <h6>Texto maximo 500</h6>
+                                            </div>                 
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-outline-info opacity-75 fw-bold">Enviar</button>
+                                            <button type="reset" class="btn btn-outline-info opacity-75 fw-bold">borrar</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--findiv-->
+    <footer id="footer">
+        <div class="col-12">
+                <h5 class="text-center  fw-normal my-4">Sígueme en las redes</h5>
+            </div>
+            <div class="text-center bg-dark bg-opacity-25 rounded-pill">
+                <ul>
+                    <a href="https://www.linkedin.com/feed/" target="_blank">
+                        <i class="bi bi-linkedin text-light opacity-75 fs-5 m-2"></i>
+                    </a>
+                    <a href="https://www.facebook.com/douglas.solorzano.33/">
+                        <i class="bi bi-facebook text-light opacity-50 fs-5 m-2"></i>
+                    </a>
+                    <a href="https://www.instagram.com/douglas__89/">
+                        <i class="bi bi-instagram text-light opacity-50 fs-5 m-2"></i>
+                    </a>
+                    <a href="https://www.behance.net/">
+                        <i class="bi bi-behance text-light opacity-75 fs-5 m-2"></i>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-12">
+                <p class="text-center  my-3">Gracias por visitar mi pagina.</p>
+        </div>
+    </footer>
+    <!--====== Jquery cnd de jquey ======-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--====== bootstrap cnd ======-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!--script src="js/bootstrap.bundle.js"></script-->
+    <!--script src="js/bootstrap.bundle.min.js"></script-->
+    <!--script src="js/bootstrap.js"></script-->
+    <!--====== validaio del formulario ======-->
+    <script src="js/validacion.js"></script>
+</body>
+</html>

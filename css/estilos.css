@@ -1,0 +1,185 @@
+
+/*font-family: 'Exo 2', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Titillium Web', sans-serif;*/
+
+body {
+     font-family: 'Poppins';
+     background-color: rgb(38, 184, 233);
+}
+
+nav{
+     background-color: rgb(22, 46, 74);
+     font-family: 'Titillium Web';
+}
+
+/* header*/
+header hr{
+     width: 39rem;
+     color: rgb(22, 46, 74);
+}
+
+/* texto*/
+header h1{
+     color: rgb(22, 46, 74);
+     font-family: 'Poppins';
+}
+
+header p{
+     color: rgb(255, 255, 255);
+     font-family: 'Exo 2';
+}
+
+/* texto chao*/
+#chao h1{
+     font-family: 'Poppins';
+}
+
+#chao p{
+     font-family: 'Exo 2';
+}
+
+/* color section*/
+section{
+     background-color: rgb(255, 255, 255);
+}
+
+section#nosotros h2{
+     color: rgb(22, 46, 74);
+     font-family: 'Poppins';
+}
+
+section#nosotros p {
+     color: rgb(22, 46, 74);
+     font-family: 'Exo 2';
+}
+
+/* color de las card*/
+.card#nosotros{
+     color:rgb(139, 8, 8);
+     border-radius: 2rem;
+     overflow: hidden;
+     background: #26b8e9;
+     box-shadow: 0rem 0rem 0rem rgb(126, 125, 125);
+     transition: all 400ms ease;
+}
+
+.card:hover{
+     box-shadow: 0rem 01rem 01rem rgb(22, 46, 74);
+     transform: translate(1%);
+}
+
+.card img{
+     width: 80%;
+     margin: 2.4rem;
+}
+
+.card h3{
+     color: rgb(22, 46, 74);
+     opacity: 75%;
+     font-family: 'Exo 2';
+}
+
+.card h5{
+     color: rgb(93, 92, 92);
+     font-family: 'Exo 2';
+}
+
+.card p{
+     color: rgb(22, 46, 74);
+     font-family: 'Titillium Web';
+}
+
+
+.card hr{
+     display: inline-block;
+     color: rgb(22, 46, 74);
+}
+
+.card a ,i{
+     display: inline-block;
+}
+
+/* section servicios*/
+section#servicios{
+     color: rgb(255, 255, 255);
+     background-color:rgb(38, 184, 233);
+}
+
+section#servicios h1{
+     color: rgb(255, 255, 255);
+     font-family: 'Poppins';
+}
+
+section#servicios h2{
+     color: rgb(255, 255, 255);
+     font-family: 'Exo 2';
+}
+
+
+
+/*ooh*/
+#ooh h3{
+     color: rgb(22, 46, 74);
+     font-family: 'Poppins';
+}
+
+#ooh p{
+     font-family: 'Exo 2';
+}
+
+/*i link instagram y mas*/
+#ooh i{
+     color: rgb(22, 46, 74);
+}
+
+section#porfolio{
+     background-color: rgb(255, 255, 255);
+}
+
+#contacto{
+     background-color: rgb(232, 58, 91);
+}
+
+#contacto p ,h6{
+     font-family: 'Exo 2';
+     color: rgb(255, 255, 255);
+}
+
+#contacto h2{
+     font-family: 'Poppins';
+     color: rgb(255, 255, 255);
+}
+/*porfolio*/
+#porfolio h2{
+     color: rgb(22, 46, 74);
+}
+
+#porfolio p{
+     color: rgb(22, 46, 74);
+}
+
+.card .contacto{
+     overflow:none;
+}
+
+footer{
+     
+     background-color: rgb(22, 46, 74);
+}
+
+footer a i{
+     display: inline-block;
+}
+
+#footer h5{
+     font-family: 'Titillium Web';
+     color: rgb(255, 255, 255);
+}
+
+#footer p{
+     font-family: 'Titillium Web';
+     color: rgb(255, 255, 255);
+}
+
+
